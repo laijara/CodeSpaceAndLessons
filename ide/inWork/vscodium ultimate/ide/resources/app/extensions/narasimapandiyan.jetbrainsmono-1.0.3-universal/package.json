@@ -1,0 +1,92 @@
+{
+	"name": "jetbrainsmono",
+	"displayName": "JetBrains Mono - A Typeface for Developers",
+	"description": "JetBrains Mono font pack - OpenSource monospaced font with programming ligatures vscode extension",
+	"version": "1.0.3",
+	"publisher": "NarasimaPandiyan",
+	"author": "Narasima Pandiyan",
+	"license": "GPL-3.0-or-later",
+	"galleryBanner": {
+		"color": "#191a1c",
+		"theme": "dark"
+	},
+	"icon": "images/JBM1.png",
+	"activationEvents": [
+		"onStartupFinished",
+		"onCommand:jetbrainsmono.activate"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "jetbrainsmono.activate",
+				"title": "Activate JetBrains Mono Font pack"
+			},
+			{
+				"command": "jetbrainsmono.deactivate",
+				"title": "Deactivate JetBrains Mono Font"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"repository": {
+		"url": "https://github.com/NarasimaPandiyan/JetbrainsMono-vscode-extension"
+	},
+	"homepage": "https://github.com/NarasimaPandiyan/JetbrainsMono-vscode-extension",
+	"bugs": {
+		"url": "https://github.com/NarasimaPandiyan/JetbrainsMono-vscode-extension/issues"
+	},
+	"keywords": [
+		"font",
+		"JetBrains Mono font",
+		"Extension for JetBrains Mono font pack",
+		"Professional fonts for programming",
+		"Mono Font",
+		"JetBrains Mono",
+		"JetBrains Mono font pack",
+		"JetBrains Mono font pack vscode extension",
+		"JetBrains Mono font pack vscode"
+	],
+	"categories": [
+		"Extension Packs",
+		"Language Packs",
+		"Programming Languages",
+		"Formatters",
+		"Other"
+	],
+	"engines": {
+		"vscode": "^1.72.0"
+	},
+	"devDependencies": {
+		"@types/follow-redirects": "^1.13.0",
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.10",
+		"@types/node": "18",
+		"@types/vscode": "1.72.0",
+		"@typescript-eslint/eslint-plugin": "^5.38.1",
+		"@typescript-eslint/parser": "^5.38.1",
+		"@vscode/test-electron": "^2.1.5",
+		"eslint": "^8.24.0",
+		"follow-redirects": "^1.13.3",
+		"fs": "^0.0.1-security",
+		"glob": "^8.0.3",
+		"inly": "^4.0.8",
+		"mocha": "^10.0.0",
+		"path": "^0.12.7",
+		"typescript": "4.9.5",
+		"vscode-test": "^1.5.0",
+		"yarn": "^1.22.22"
+	},
+	"__metadata": {
+		"installedTimestamp": 1772318771497,
+		"targetPlatform": "universal",
+		"size": 9760185
+	}
+}

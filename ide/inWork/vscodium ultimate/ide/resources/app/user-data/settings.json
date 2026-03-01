@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "terminal.integrated.env.windows": {
+        "PATH": "${workspaceFolder}\\Compilers\\mingw64\\bin;${workspaceFolder}\\Compilers\\dotnet;${env:PATH}"
+    }
+}

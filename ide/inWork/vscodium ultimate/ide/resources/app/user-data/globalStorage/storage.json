@@ -1,0 +1,80 @@
+{
+    "telemetry.machineId": "5698537cba86fdc293525af73846acabdf4716f8f27906ec6a47cc8191cccb78",
+    "telemetry.sqmId": "{63E1A885-0BFF-4EC4-A326-D6B828824943}",
+    "telemetry.devDeviceId": "c5478c6b-103e-48b2-a60f-ec08ec3ee499",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1772319477355"
+            }
+        ]
+    },
+    "windowControlHeight": 50,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///d%3A/gitupload/frontend": "__default__profile__",
+            "file:///c%3A/Users/%D0%A0%D1%83%D1%81%D0%BB%D0%B0%D0%BD%20%D0%9F%D0%BE%D0%BB%D1%8C%D1%89%D0%B8%D0%BA%D0%BE%D0%B2/Desktop/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1772319477355": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#272822",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#272822",
+            "editorBackground": "#272822",
+            "titleBarBackground": "#1e1f1c",
+            "activityBarBackground": "#272822",
+            "sideBarBackground": "#1e1f1c",
+            "statusBarBackground": "#414339",
+            "statusBarNoFolderBackground": "#414339"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "C:\\Users\\Руслан Польщиков\\AppData\\Roaming\\VSCodium\\Backups\\1772319477355",
+            "uiState": {
+                "mode": 0,
+                "x": 710,
+                "y": 350,
+                "width": 1200,
+                "height": 800,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "4c7f495bcaf8d3eccf4f6f7f1d6778ec": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "63c7f32befae38f3bdef00aa7c357021": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
