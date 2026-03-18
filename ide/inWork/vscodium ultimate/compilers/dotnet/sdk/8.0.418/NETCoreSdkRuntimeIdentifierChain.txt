@@ -1,4 +1,0 @@
-win-x86
-win
-any
-base
