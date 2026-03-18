@@ -1,0 +1,895 @@
+Microsoft Windows [Version 10.0.17763.8511]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2018. Все права защищены.
+
+C:\Users\Администратор.SP-3-302-0116>Schtasks
+
+Папка: \
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Adobe Acrobat Update Task                19.03.2026 9:00:00     Готово
+Intel PTT EK Recertification             N/A                    Готово
+npcapwatchdog                            N/A                    Готово
+SputnikClient.Updater                    18.03.2026 12:15:43    Выполняется
+User_Feed_Synchronization-{00FB2AED-7DF6 18.03.2026 15:46:14    Готово
+User_Feed_Synchronization-{024D05AE-4F7A 18.03.2026 20:12:34    Готово
+User_Feed_Synchronization-{03A6736E-78D7 18.03.2026 17:03:13    Готово
+User_Feed_Synchronization-{08AC3E08-E363 18.03.2026 19:04:18    Готово
+User_Feed_Synchronization-{0905416B-A6D4 18.03.2026 15:32:09    Готово
+User_Feed_Synchronization-{0FF9D961-032F 18.03.2026 16:46:22    Готово
+User_Feed_Synchronization-{10F6461E-5390 18.03.2026 21:53:27    Готово
+User_Feed_Synchronization-{137C99E8-4D66 18.03.2026 19:57:20    Готово
+User_Feed_Synchronization-{15C7BB51-38D5 18.03.2026 13:52:17    Готово
+User_Feed_Synchronization-{19BEBFBF-A827 18.03.2026 22:19:56    Готово
+User_Feed_Synchronization-{1A2086A8-0FDA 18.03.2026 19:53:09    Готово
+User_Feed_Synchronization-{1A8A6437-FC86 18.03.2026 18:55:37    Готово
+User_Feed_Synchronization-{1C360DAA-11E0 18.03.2026 19:35:01    Готово
+User_Feed_Synchronization-{229F3CC3-9427 18.03.2026 16:45:44    Готово
+User_Feed_Synchronization-{251D7FFD-1F1C 18.03.2026 15:58:59    Готово
+User_Feed_Synchronization-{26AAF99E-F873 18.03.2026 18:49:32    Готово
+User_Feed_Synchronization-{29B2D36F-3C14 18.03.2026 18:52:11    Готово
+User_Feed_Synchronization-{2E50DFD8-5364 18.03.2026 15:51:15    Готово
+User_Feed_Synchronization-{2EA42A8E-D9C6 18.03.2026 18:57:51    Готово
+User_Feed_Synchronization-{3297370A-60FA 18.03.2026 19:14:52    Готово
+User_Feed_Synchronization-{32D3E5B4-332E 18.03.2026 21:40:40    Готово
+User_Feed_Synchronization-{3301B60A-DF5F 18.03.2026 14:05:44    Готово
+User_Feed_Synchronization-{356ABE2B-7AC8 18.03.2026 17:00:20    Готово
+User_Feed_Synchronization-{35E7E736-0249 18.03.2026 14:00:34    Готово
+User_Feed_Synchronization-{36E72D44-29A4 18.03.2026 19:52:40    Готово
+User_Feed_Synchronization-{3B0559EA-C264 18.03.2026 13:35:33    Готово
+User_Feed_Synchronization-{3CF5BEA3-0008 18.03.2026 22:20:16    Готово
+User_Feed_Synchronization-{451AA4D3-0BBB 18.03.2026 18:33:59    Готово
+User_Feed_Synchronization-{460D08F2-E067 18.03.2026 15:24:55    Готово
+User_Feed_Synchronization-{47D8F5B4-72FC 18.03.2026 16:07:40    Готово
+User_Feed_Synchronization-{492E6096-CD1E 18.03.2026 15:27:41    Готово
+User_Feed_Synchronization-{4A4558AE-93F1 18.03.2026 19:44:40    Готово
+User_Feed_Synchronization-{4C79914D-090D 18.03.2026 15:57:01    Готово
+User_Feed_Synchronization-{4D0FE57A-FDAF 18.03.2026 14:02:07    Готово
+User_Feed_Synchronization-{51AF552C-4D07 18.03.2026 19:43:15    Готово
+User_Feed_Synchronization-{54735AAD-3C68 18.03.2026 15:33:43    Готово
+User_Feed_Synchronization-{5634C32A-3ED9 18.03.2026 18:42:22    Готово
+User_Feed_Synchronization-{5D612955-EF90 18.03.2026 16:18:56    Готово
+User_Feed_Synchronization-{5E38694C-CC2D 18.03.2026 16:36:05    Готово
+User_Feed_Synchronization-{5ED20C43-CD38 18.03.2026 17:06:04    Готово
+User_Feed_Synchronization-{627B7ED2-DEEA 18.03.2026 19:37:13    Готово
+User_Feed_Synchronization-{64A7D11B-8C07 18.03.2026 18:45:05    Готово
+User_Feed_Synchronization-{6514013A-8AA0 18.03.2026 11:45:13    Готово
+User_Feed_Synchronization-{6556DCD0-AD41 18.03.2026 15:45:27    Готово
+User_Feed_Synchronization-{660D247D-4158 18.03.2026 15:09:29    Готово
+User_Feed_Synchronization-{661D5653-2CAC 18.03.2026 16:24:47    Готово
+User_Feed_Synchronization-{66537D9A-CE70 18.03.2026 18:06:17    Готово
+User_Feed_Synchronization-{698FB820-8591 18.03.2026 18:50:09    Готово
+User_Feed_Synchronization-{6EB958AC-FE60 18.03.2026 16:00:15    Готово
+User_Feed_Synchronization-{6EB972CD-28EA 18.03.2026 22:23:26    Готово
+User_Feed_Synchronization-{6EF8E8D3-02D1 18.03.2026 15:58:50    Готово
+User_Feed_Synchronization-{70D9004F-94D8 18.03.2026 12:28:28    Готово
+User_Feed_Synchronization-{75020359-60E7 18.03.2026 19:08:11    Готово
+User_Feed_Synchronization-{77D777EA-2FD7 18.03.2026 18:29:55    Готово
+User_Feed_Synchronization-{7B161746-5A5A 18.03.2026 15:09:32    Готово
+User_Feed_Synchronization-{7C972457-27BB 18.03.2026 18:38:25    Готово
+User_Feed_Synchronization-{7D8AE10B-59BF 18.03.2026 12:30:24    Готово
+User_Feed_Synchronization-{7EC0E224-2FCC 18.03.2026 15:28:41    Готово
+User_Feed_Synchronization-{7FB2239F-D895 18.03.2026 18:57:39    Готово
+User_Feed_Synchronization-{809CB471-F1C3 19.03.2026 11:36:16    Готово
+User_Feed_Synchronization-{8949CF3D-BC98 18.03.2026 20:14:18    Готово
+User_Feed_Synchronization-{897B156F-B7FD 18.03.2026 13:40:09    Готово
+User_Feed_Synchronization-{918F2486-B7A9 18.03.2026 17:52:18    Готово
+User_Feed_Synchronization-{95539934-3D9A 18.03.2026 15:24:31    Готово
+User_Feed_Synchronization-{95E1D78C-5A3D 18.03.2026 14:32:23    Готово
+User_Feed_Synchronization-{96B859D6-F247 18.03.2026 15:04:25    Готово
+User_Feed_Synchronization-{98FC924B-8BCE 18.03.2026 18:50:48    Готово
+User_Feed_Synchronization-{9BBB081F-9FD0 18.03.2026 22:11:32    Готово
+User_Feed_Synchronization-{9E223116-696A 18.03.2026 17:49:06    Готово
+User_Feed_Synchronization-{9ED3E5C8-9A85 18.03.2026 15:16:52    Готово
+User_Feed_Synchronization-{A1A75F2E-15D2 18.03.2026 15:56:10    Готово
+User_Feed_Synchronization-{A3FADE48-B307 18.03.2026 19:38:35    Готово
+User_Feed_Synchronization-{A5AACB9C-D1F2 18.03.2026 12:57:17    Готово
+User_Feed_Synchronization-{A600FBCA-B665 18.03.2026 14:51:57    Готово
+User_Feed_Synchronization-{ADE24B87-0F5A 18.03.2026 16:38:19    Готово
+User_Feed_Synchronization-{AE4148AC-4BD2 18.03.2026 18:52:57    Готово
+User_Feed_Synchronization-{AEC4BAA6-5DB8 18.03.2026 16:48:45    Готово
+User_Feed_Synchronization-{AF477E11-9A02 18.03.2026 17:35:31    Готово
+User_Feed_Synchronization-{B15AC4E4-8108 18.03.2026 15:30:04    Готово
+User_Feed_Synchronization-{B19A85D6-F0AE 18.03.2026 15:55:45    Готово
+User_Feed_Synchronization-{B2C1310F-C9A6 18.03.2026 16:40:25    Готово
+User_Feed_Synchronization-{B3547893-B131 18.03.2026 17:48:44    Готово
+User_Feed_Synchronization-{B35A0837-7088 18.03.2026 19:24:52    Готово
+User_Feed_Synchronization-{B51FDE14-6391 18.03.2026 15:26:22    Готово
+User_Feed_Synchronization-{B52EBDA7-2C0E 18.03.2026 18:28:22    Готово
+User_Feed_Synchronization-{B856EF61-512C 18.03.2026 15:34:53    Готово
+User_Feed_Synchronization-{BE031780-F5B2 18.03.2026 16:41:59    Готово
+User_Feed_Synchronization-{BFA039B5-CC8E 18.03.2026 20:31:08    Готово
+User_Feed_Synchronization-{BFB5F230-FD23 18.03.2026 23:54:21    Готово
+User_Feed_Synchronization-{C4C8E4DC-C33A 18.03.2026 18:41:14    Готово
+User_Feed_Synchronization-{C62656E3-026A 18.03.2026 15:20:54    Готово
+User_Feed_Synchronization-{CB25874B-57DE 18.03.2026 19:47:02    Готово
+User_Feed_Synchronization-{CB6FFEAE-940E 18.03.2026 15:08:55    Готово
+User_Feed_Synchronization-{D254F118-6AB5 18.03.2026 15:25:59    Готово
+User_Feed_Synchronization-{D3C77CE8-6040 18.03.2026 15:52:30    Готово
+User_Feed_Synchronization-{D5D19A53-8423 18.03.2026 20:30:55    Готово
+User_Feed_Synchronization-{D7996162-2DCD 18.03.2026 18:19:13    Готово
+User_Feed_Synchronization-{D7B643A2-F374 18.03.2026 16:10:09    Готово
+User_Feed_Synchronization-{D8FF0B44-EA26 18.03.2026 21:28:23    Готово
+User_Feed_Synchronization-{DA9F5470-8F1A 18.03.2026 15:42:36    Готово
+User_Feed_Synchronization-{DAF6AC47-0605 18.03.2026 15:07:49    Готово
+User_Feed_Synchronization-{DEE3FDED-E3CE 18.03.2026 17:27:55    Готово
+User_Feed_Synchronization-{E2AA6079-5A31 18.03.2026 17:19:02    Готово
+User_Feed_Synchronization-{E8CE15B5-288D 18.03.2026 19:03:22    Готово
+User_Feed_Synchronization-{E9D1A93D-6197 18.03.2026 20:31:16    Готово
+User_Feed_Synchronization-{F0CBBFB3-020A 18.03.2026 18:37:17    Готово
+User_Feed_Synchronization-{F125F400-8E06 18.03.2026 21:38:30    Готово
+User_Feed_Synchronization-{F2451CE1-A42F 18.03.2026 18:37:41    Готово
+User_Feed_Synchronization-{F386BE9B-48D7 18.03.2026 16:17:34    Готово
+User_Feed_Synchronization-{F671B7CC-77D0 18.03.2026 20:53:20    Готово
+User_Feed_Synchronization-{F6E86B52-2030 18.03.2026 18:20:03    Готово
+User_Feed_Synchronization-{F91B6F9E-0009 18.03.2026 13:40:55    Готово
+User_Feed_Synchronization-{FF7EC7B1-08CC 18.03.2026 18:29:45    Готово
+
+Папка: \GoogleSystem
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \GoogleSystem\GoogleUpdater
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+GoogleUpdaterTaskSystem147.0.7703.0{E7D8 18.03.2026 12:21:34    Готово
+
+Папка: \MFUA
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+OFF                                      N/A                    Готово
+
+Папка: \Microsoft
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Configuration Manager
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Configuration Manager Health Evaluation  N/A                    Готово
+Configuration Manager Idle Detection     N/A                    Готово
+Configuration Manager Passport for Work  N/A                    Готово
+
+Папка: \Microsoft\Office
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Office 15 Subscription Heartbeat         19.03.2026 2:35:07     Готово
+OfficeTelemetryAgentFallBack2016         N/A                    Готово
+OfficeTelemetryAgentLogOn2016            N/A                    Готово
+
+Папка: \Microsoft\VisualStudio
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\VisualStudio\Updates
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+BackgroundDownload                       N/A                    Готово
+
+Папка: \Microsoft\Windows
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\.NET Framework
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+.NET Framework NGEN v4.0.30319           N/A                    Готово
+.NET Framework NGEN v4.0.30319 64        N/A                    Готово
+.NET Framework NGEN v4.0.30319 64 Critic N/A                    Отключено
+.NET Framework NGEN v4.0.30319 Critical  N/A                    Отключено
+
+Папка: \Microsoft\Windows\Active Directory Rights Management Services Client
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+AD RMS Rights Policy Template Management N/A                    Отключено
+AD RMS Rights Policy Template Management N/A                    Готово
+
+Папка: \Microsoft\Windows\AppID
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+EDP Policy Manager                       N/A                    Готово
+PolicyConverter                          N/A                    Отключено
+VerifiedPublisherCertStoreCheck          N/A                    Отключено
+
+Папка: \Microsoft\Windows\Application Experience
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Microsoft Compatibility Appraiser        19.03.2026 3:00:52     Готово
+ProgramDataUpdater                       N/A                    Готово
+StartupAppTask                           N/A                    Готово
+
+Папка: \Microsoft\Windows\ApplicationData
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+appuriverifierdaily                      N/A                    Готово
+appuriverifierinstall                    N/A                    Готово
+CleanupTemporaryState                    N/A                    Готово
+DsSvcCleanup                             N/A                    Готово
+
+Папка: \Microsoft\Windows\AppxDeploymentClient
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Pre-staged app cleanup                   N/A                    Отключено
+
+Папка: \Microsoft\Windows\Autochk
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Proxy                                    N/A                    Готово
+
+Папка: \Microsoft\Windows\BitLocker
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+BitLocker Encrypt All Drives             N/A                    Готово
+BitLocker MDM policy Refresh             N/A                    Готово
+
+Папка: \Microsoft\Windows\Bluetooth
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+UninstallDeviceTask                      N/A                    Готово
+
+Папка: \Microsoft\Windows\BrokerInfrastructure
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+BgTaskRegistrationMaintenanceTask        N/A                    Готово
+
+Папка: \Microsoft\Windows\CertificateServicesClient
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+AikCertEnrollTask                        N/A                    Готово
+CryptoPolicyTask                         N/A                    Готово
+KeyPreGenTask                            N/A                    Готово
+SystemTask                               N/A                    Готово
+UserTask                                 N/A                    Готово
+UserTask-Roam                            N/A                    Готово
+
+Папка: \Microsoft\Windows\Chkdsk
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ProactiveScan                            N/A                    Готово
+SyspartRepair                            N/A                    Готово
+
+Папка: \Microsoft\Windows\Clip
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+License Validation                       N/A                    Отключено
+
+Папка: \Microsoft\Windows\CloudExperienceHost
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+CreateObjectTask                         N/A                    Готово
+
+Папка: \Microsoft\Windows\Customer Experience Improvement Program
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Consolidator                             18.03.2026 12:00:00    Готово
+UsbCeip                                  N/A                    Готово
+
+Папка: \Microsoft\Windows\Data Integrity Scan
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Data Integrity Scan                      10.04.2026 14:02:48    Готово
+Data Integrity Scan for Crash Recovery   N/A                    Готово
+
+Папка: \Microsoft\Windows\Defrag
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ScheduledDefrag                          N/A                    Готово
+
+Папка: \Microsoft\Windows\Device Information
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Device                                   19.03.2026 3:31:39     Готово
+
+Папка: \Microsoft\Windows\Device Setup
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Metadata Refresh                         N/A                    Готово
+
+Папка: \Microsoft\Windows\DeviceDirectoryClient
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+HandleCommand                            N/A                    Готово
+HandleWnsCommand                         N/A                    Готово
+IntegrityCheck                           23.03.2026 5:03:40     Готово
+LocateCommandUserSession                 N/A                    Готово
+RegisterDeviceAccountChange              N/A                    Готово
+RegisterDeviceLocationRightsChange       N/A                    Отключено
+RegisterDevicePeriodic24                 N/A                    Отключено
+RegisterDevicePolicyChange               N/A                    Готово
+RegisterDeviceProtectionStateChanged     N/A                    Готово
+RegisterDeviceSettingChange              N/A                    Готово
+RegisterUserDevice                       N/A                    Готово
+
+Папка: \Microsoft\Windows\Diagnosis
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Scheduled                                N/A                    Готово
+
+Папка: \Microsoft\Windows\DirectX
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+DXGIAdapterCache                         N/A                    Готово
+
+Папка: \Microsoft\Windows\DiskCleanup
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+SilentCleanup                            N/A                    Готово
+
+Папка: \Microsoft\Windows\DiskDiagnostic
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Microsoft-Windows-DiskDiagnosticDataColl N/A                    Отключено
+Microsoft-Windows-DiskDiagnosticResolver N/A                    Отключено
+
+Папка: \Microsoft\Windows\DiskFootprint
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Diagnostics                              N/A                    Готово
+StorageSense                             N/A                    Готово
+
+Папка: \Microsoft\Windows\DUSM
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+dusmtask                                 N/A                    Готово
+
+Папка: \Microsoft\Windows\EDP
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+EDP App Launch Task                      N/A                    Готово
+EDP Auth Task                            N/A                    Готово
+EDP Inaccessible Credentials Task        N/A                    Готово
+StorageCardEncryption Task               N/A                    Готово
+
+Папка: \Microsoft\Windows\ExploitGuard
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ExploitGuard MDM policy Refresh          N/A                    Готово
+
+Папка: \Microsoft\Windows\Feedback
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\Feedback\Siuf
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+DmClient                                 N/A                    Готово
+DmClientOnScenarioDownload               N/A                    Готово
+
+Папка: \Microsoft\Windows\File Classification Infrastructure
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Property Definition Sync                 N/A                    Отключено
+
+Папка: \Microsoft\Windows\FileHistory
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+File History (maintenance mode)          N/A                    Готово
+
+Папка: \Microsoft\Windows\Flighting
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\Flighting\OneSettings
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+RefreshCache                             19.03.2026 8:23:28     Готово
+
+Папка: \Microsoft\Windows\HelloFace
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+FODCleanupTask                           N/A                    Готово
+
+Папка: \Microsoft\Windows\InstallService
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ScanForUpdates                           19.03.2026 3:23:33     Готово
+ScanForUpdatesAsUser                     N/A                    Готово
+SmartRetry                               N/A                    Готово
+WakeUpAndContinueUpdates                 N/A                    Отключено
+WakeUpAndScanForUpdates                  N/A                    Отключено
+
+Папка: \Microsoft\Windows\LanguageComponentsInstaller
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Installation                             N/A                    Готово
+ReconcileLanguageResources               N/A                    Готово
+Uninstallation                           N/A                    Отключено
+
+Папка: \Microsoft\Windows\License Manager
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+TempSignedLicenseExchange                N/A                    Готово
+
+Папка: \Microsoft\Windows\Live
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\Location
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Notifications                            N/A                    Готово
+WindowsActionDialog                      N/A                    Готово
+
+Папка: \Microsoft\Windows\Maintenance
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+WinSAT                                   N/A                    Готово
+
+Папка: \Microsoft\Windows\Management
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\Management\Provisioning
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Cellular                                 N/A                    Готово
+Logon                                    N/A                    Готово
+
+Папка: \Microsoft\Windows\Maps
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+MapsToastTask                            N/A                    Готово
+MapsUpdateTask                           N/A                    Отключено
+
+Папка: \Microsoft\Windows\MemoryDiagnostic
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ProcessMemoryDiagnosticEvents            N/A                    Готово
+RunFullMemoryDiagnostic                  N/A                    Готово
+
+Папка: \Microsoft\Windows\Mobile Broadband Accounts
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+MNO Metadata Parser                      N/A                    Готово
+
+Папка: \Microsoft\Windows\MUI
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+LPRemove                                 N/A                    Готово
+
+Папка: \Microsoft\Windows\Multimedia
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+SystemSoundsService                      N/A                    Выполняется
+
+Папка: \Microsoft\Windows\NetTrace
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+GatherNetworkInfo                        N/A                    Готово
+
+Папка: \Microsoft\Windows\NlaSvc
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+WiFiTask                                 N/A                    Готово
+
+Папка: \Microsoft\Windows\Offline Files
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Background Synchronization               N/A                    Отключено
+Logon Synchronization                    N/A                    Отключено
+
+Папка: \Microsoft\Windows\PI
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Secure-Boot-Update                       N/A                    Готово
+SecureBootEncodeUEFI                     01.04.2026 12:00:00    Готово
+Sqm-Tasks                                N/A                    Готово
+
+Папка: \Microsoft\Windows\PLA
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\Plug and Play
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Device Install Group Policy              N/A                    Готово
+Device Install Reboot Required           N/A                    Готово
+Sysprep Generalize Drivers               N/A                    Готово
+
+Папка: \Microsoft\Windows\Power Efficiency Diagnostics
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+AnalyzeSystem                            N/A                    Готово
+
+Папка: \Microsoft\Windows\Printing
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+EduPrintProv                             N/A                    Готово
+
+Папка: \Microsoft\Windows\PushToInstall
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+LoginCheck                               N/A                    Отключено
+Registration                             19.03.2026 9:17:42     Готово
+
+Папка: \Microsoft\Windows\Ras
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+MobilityManager                          N/A                    Готово
+
+Папка: \Microsoft\Windows\RecoveryEnvironment
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+VerifyWinRE                              N/A                    Отключено
+
+Папка: \Microsoft\Windows\Registry
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+RegIdleBackup                            N/A                    Готово
+
+Папка: \Microsoft\Windows\RemoteAssistance
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+RemoteAssistanceTask                     N/A                    Готово
+
+Папка: \Microsoft\Windows\Servicing
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+StartComponentCleanup                    N/A                    Готово
+
+Папка: \Microsoft\Windows\SettingSync
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+BackgroundUploadTask                     N/A                    Готово
+NetworkStateChangeTask                   N/A                    Готово
+
+Папка: \Microsoft\Windows\SharedPC
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Account Cleanup                          N/A                    Отключено
+
+Папка: \Microsoft\Windows\Shell
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+CreateObjectTask                         N/A                    Готово
+FamilySafetyMonitor                      N/A                    Готово
+FamilySafetyRefreshTask                  N/A                    Готово
+IndexerAutomaticMaintenance              N/A                    Готово
+
+Папка: \Microsoft\Windows\SMB
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+UninstallSMB1ClientTask                  N/A                    Готово
+UninstallSMB1ServerTask                  N/A                    Готово
+
+Папка: \Microsoft\Windows\SoftwareProtectionPlatform
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+SvcRestartTask                           25.03.2026 9:16:56     Готово
+SvcRestartTaskLogon                      N/A                    Отключено
+SvcRestartTaskNetwork                    N/A                    Отключено
+
+Папка: \Microsoft\Windows\SpacePort
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+SpaceAgentTask                           N/A                    Готово
+SpaceManagerTask                         N/A                    Готово
+
+Папка: \Microsoft\Windows\Speech
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+HeadsetButtonPress                       N/A                    Готово
+SpeechModelDownloadTask                  19.03.2026 0:13:38     Готово
+
+Папка: \Microsoft\Windows\Storage Tiers Management
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Storage Tiers Management Initialization  N/A                    Готово
+Storage Tiers Optimization               N/A                    Отключено
+
+Папка: \Microsoft\Windows\Sysmain
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+HybridDriveCachePrepopulate              N/A                    Отключено
+HybridDriveCacheRebalance                N/A                    Отключено
+ResPriStaticDbSync                       N/A                    Готово
+WsSwapAssessmentTask                     N/A                    Готово
+
+Папка: \Microsoft\Windows\SystemRestore
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+SR                                       N/A                    Готово
+
+Папка: \Microsoft\Windows\Task Manager
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Interactive                              N/A                    Готово
+
+Папка: \Microsoft\Windows\termsrv
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ИНФОРМАЦИЯ. Запланированных задач, доступных для вашего уровня доступа, в настоящее время нет.
+
+Папка: \Microsoft\Windows\TextServicesFramework
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+MsCtfMonitor                             N/A                    Готово
+
+Папка: \Microsoft\Windows\Time Synchronization
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ForceSynchronizeTime                     N/A                    Готово
+SynchronizeTime                          N/A                    Готово
+
+Папка: \Microsoft\Windows\Time Zone
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+SynchronizeTimeZone                      N/A                    Готово
+
+Папка: \Microsoft\Windows\TPM
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Tpm-HASCertRetr                          N/A                    Готово
+Tpm-Maintenance                          N/A                    Готово
+
+Папка: \Microsoft\Windows\UNP
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+RunUpdateNotificationMgr                 19.03.2026 14:42:27    Готово
+
+Папка: \Microsoft\Windows\UpdateOrchestrator
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Backup Scan                              01.04.2026 9:18:20     Готово
+Maintenance Install                      N/A                    Отключено
+Reboot                                   N/A                    Отключено
+Schedule Scan                            18.03.2026 22:44:55    Готово
+Schedule Scan Static Task                N/A                    Готово
+UpdateModelTask                          N/A                    Готово
+USO_UxBroker                             19.03.2026 17:16:28    Готово
+
+Папка: \Microsoft\Windows\UPnP
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+UPnPHostConfig                           N/A                    Готово
+
+Папка: \Microsoft\Windows\USB
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Usb-Notifications                        N/A                    Готово
+
+Папка: \Microsoft\Windows\User Profile Service
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+HiveUploadTask                           N/A                    Отключено
+
+Папка: \Microsoft\Windows\WaaSMedic
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+PerformRemediation                       22.03.2026 6:00:01     Готово
+
+Папка: \Microsoft\Windows\WCM
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+WiFiTask                                 N/A                    Готово
+
+Папка: \Microsoft\Windows\WDI
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+ResolutionHost                           N/A                    Готово
+
+Папка: \Microsoft\Windows\Windows Defender
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Windows Defender Cache Maintenance       N/A                    Готово
+Windows Defender Cleanup                 N/A                    Готово
+Windows Defender Verification            N/A                    Готово
+
+Папка: \Microsoft\Windows\Windows Error Reporting
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+QueueReporting                           18.03.2026 12:13:15    Готово
+
+Папка: \Microsoft\Windows\Windows Filtering Platform
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+BfeOnServiceStartTypeChange              N/A                    Готово
+
+Папка: \Microsoft\Windows\Windows Media Sharing
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+UpdateLibrary                            N/A                    Готово
+
+Папка: \Microsoft\Windows\WindowsColorSystem
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Calibration Loader                       N/A                    Готово
+
+Папка: \Microsoft\Windows\WindowsUpdate
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Scheduled Start                          19.03.2026 9:16:03     Готово
+
+Папка: \Microsoft\Windows\Wininet
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+CacheTask                                N/A                    Выполняется
+
+Папка: \Microsoft\Windows\WlanSvc
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+CDSSync                                  N/A                    Готово
+
+Папка: \Microsoft\Windows\WOF
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+WIM-Hash-Management                      N/A                    Готово
+WIM-Hash-Validation                      N/A                    Отключено
+
+Папка: \Microsoft\Windows\Work Folders
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Work Folders Logon Synchronization       N/A                    Готово
+Work Folders Maintenance Work            N/A                    Готово
+
+Папка: \Microsoft\Windows\Workplace Join
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Automatic-Device-Join                    N/A                    Готово
+Recovery-Check                           N/A                    Отключено
+
+Папка: \Microsoft\Windows\WwanSvc
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+NotificationTask                         N/A                    Готово
+
+Папка: \Microsoft\XblGameSave
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+XblGameSaveTask                          N/A                    Готово
+
+Папка: \Mozilla
+Имя задачи                               Время следующего запус Состояние
+======================================== ====================== ===============
+Firefox Background Update S-1-5-21-21889 18.03.2026 14:53:53    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 18:23:34    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 15:21:16    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 13:00:29    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 16:37:18    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 15:20:00    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 13:59:50    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 13:43:26    Готово
+Firefox Background Update S-1-5-21-30196 18.03.2026 12:20:24    Готово
+Firefox Default Browser Agent 22B5531ED6 19.03.2026 9:14:48     Готово
+Firefox Default Browser Agent 308046B0AF 18.03.2026 11:52:44    Готово
+Firefox Default Browser Agent 4233EEC3E2 18.03.2026 12:19:05    Готово
+Firefox Default Browser Agent B0987EF359 19.03.2026 11:22:27    Готово
+Firefox Default Browser Agent B164E90483 18.03.2026 14:58:51    Готово
+Firefox Default Browser Agent B94BFC6005 18.03.2026 12:59:22    Готово
+
+C:\Users\Администратор.SP-3-302-0116>cd \
+
+C:\>cd windows
+
+C:\Windows>dir
+ Том в устройстве C имеет метку Windows
+ Серийный номер тома: D87D-F859
+
+ Содержимое папки C:\Windows
+
+16.03.2026  09:30    <DIR>          .
+16.03.2026  09:30    <DIR>          ..
+15.09.2018  10:33    <DIR>          addins
+23.06.2025  14:14            29 789 aksdrvsetup.log
+04.02.2021  04:41    <DIR>          appcompat
+14.01.2026  11:49    <DIR>          apppatch
+13.03.2026  09:34    <DIR>          AppReadiness
+23.06.2025  15:03    <DIR>          assembly
+12.03.2026  09:07    <DIR>          bcastdvr
+13.03.2025  11:45            95 744 bfsvc.exe
+19.09.2024  11:28    <DIR>          Boot
+15.09.2018  10:33    <DIR>          Branding
+11.03.2026  12:52    <DIR>          CbsTemp
+23.06.2025  17:33    <DIR>          CCM
+24.09.2024  11:48    <DIR>          ccmcache
+24.06.2025  16:27    <DIR>          ccmsetup
+15.09.2018  19:58    <DIR>          Containers
+04.10.2021  12:05    <DIR>          CSC
+15.09.2018  10:33    <DIR>          Cursors
+04.10.2021  12:04    <DIR>          debug
+15.09.2018  10:33    <DIR>          diagnostics
+15.09.2018  19:41    <DIR>          DigitalLocker
+01.03.2025  09:03             4 866 DtcInstall.log
+15.09.2018  19:41    <DIR>          en-US
+15.09.2018  10:28            35 353 EnterpriseS.xml
+11.03.2026  12:48         4 385 112 explorer.exe
+15.09.2018  10:33    <DIR>          GameBarPresenceWriter
+15.09.2018  10:33    <DIR>          Globalization
+04.10.2021  12:13    <DIR>          Help
+19.09.2024  10:41         1 071 616 HelpPane.exe
+15.09.2018  10:29            18 432 hh.exe
+15.09.2018  10:33    <DIR>          IdentityCRL
+04.02.2021  09:32    <DIR>          IME
+14.05.2025  12:10    <DIR>          ImmersiveControlPanel
+12.03.2026  09:17    <DIR>          INF
+15.09.2018  10:33    <DIR>          InputMethod
+15.09.2018  10:33    <DIR>          L2Schemas
+23.06.2025  10:16    <DIR>          LiveKernelReports
+18.03.2026  11:22    <DIR>          Logs
+15.09.2018  10:28            43 131 mib.bin
+18.03.2026  11:10    <DIR>          Microsoft.NET
+15.09.2018  10:33    <DIR>          Migration
+15.09.2018  10:33    <DIR>          ModemLogs
+23.06.2025  15:02    <DIR>          ms
+12.08.2009  16:28            53 478 mvtcpui.ini
+19.09.2024  10:41           254 464 notepad.exe
+15.09.2018  19:43    <DIR>          OCR
+04.02.2021  10:47               334 ODBC.INI
+04.02.2021  10:47               288 ODBCINST.INI
+15.09.2018  10:33    <DIR>          Offline Web Pages
+04.10.2021  12:05    <DIR>          Panther
+03.02.2021  18:08    <DIR>          PCHEALTH
+15.09.2018  10:33    <DIR>          Performance
+12.03.2026  09:08            81 932 PFRO.log
+15.09.2018  10:33    <DIR>          PLA
+11.09.2025  12:04    <DIR>          PolicyDefinitions
+18.03.2026  11:32    <DIR>          Prefetch
+19.09.2024  11:28    <DIR>          PrintDialog
+19.09.2024  11:28    <DIR>          Provisioning
+17.05.2022  16:45           960 504 py.exe
+17.05.2022  16:46            59 384 pyshellext.amd64.dll
+17.05.2022  16:45           961 528 pyw.exe
+04.02.2021  09:11           357 888 regedit.exe
+15.09.2018  10:33    <DIR>          Registration
+15.09.2018  19:43    <DIR>          RemotePackages
+15.09.2018  10:33    <DIR>          rescache
+15.09.2018  10:33    <DIR>          Resources
+15.09.2018  19:41    <DIR>          ru-RU
+15.09.2018  10:33    <DIR>          SchCache
+15.09.2018  19:43    <DIR>          schemas
+15.09.2018  19:43    <DIR>          security
+02.10.2025  09:36    <DIR>          ServiceProfiles
+03.02.2021  17:36    <DIR>          ServiceState
+14.01.2026  11:49    <DIR>          servicing
+04.10.2021  12:03    <DIR>          Setup
+12.03.2026  09:08            68 295 setupact.log
+02.03.2021  18:00                 0 setuperr.log
+19.09.2024  11:28    <DIR>          ShellComponents
+12.03.2026  09:07    <DIR>          ShellExperiences
+03.02.2021  18:09    <DIR>          SHELLNEW
+15.09.2018  10:33    <DIR>          SKB
+12.03.2026  09:09               613 SMSCFG.INI
+04.10.2021  12:08    <DIR>          SoftwareDistribution
+15.09.2018  10:33    <DIR>          Speech
+15.09.2018  10:33    <DIR>          Speech_OneCore
+28.10.2025  10:48           133 632 splwow64.exe
+15.09.2018  10:33    <DIR>          System
+15.09.2018  10:31               219 system.ini
+12.03.2026  09:17    <DIR>          System32
+15.09.2018  19:43    <DIR>          SystemApps
+15.09.2018  10:33    <DIR>          SystemResources
+18.03.2026  09:19    <DIR>          SystemTemp
+12.03.2026  09:07    <DIR>          SysWOW64
+15.09.2018  10:33    <DIR>          TAPI
+03.02.2021  18:52    <DIR>          Tasks
+18.03.2026  11:22    <DIR>          Temp
+28.02.2025  15:45    <DIR>          TextInput
+15.09.2018  10:33    <DIR>          tracing
+23.06.2025  17:49    <DIR>          twain_32
+15.09.2018  10:29            64 512 twain_32.dll
+15.09.2018  10:33    <DIR>          Vss
+15.09.2018  10:33    <DIR>          WaaS
+15.09.2018  10:33    <DIR>          Web
+03.02.2021  18:07               167 win.ini
+18.03.2026  11:08               276 WindowsUpdate.log
+15.09.2018  10:29            11 776 winhlp32.exe
+16.03.2026  11:23    <DIR>          WinSxS
+15.09.2018  19:43           316 640 WMSysPr9.prx
+15.09.2018  10:29            11 264 write.exe
+              28 файлов      9 021 237 байт
+              81 папок  133 864 013 824 байт свободно
+
+C:\Windows>start notepad.exe
+
+C:\Windows>taskkill /IM notepad.exe
+Успех: Отправлен сигнал завершения процессу "notepad.exe" с идентификатором 8240.
+
+C:\Windows>
