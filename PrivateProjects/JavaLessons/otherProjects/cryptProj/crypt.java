@@ -65,15 +65,15 @@ class Encrypt{
                     }
                     else if (chooseMenu.equals("1")) {
                         String encryptMessage;
-                        System.out.print("\n=================\n");
+                        System.out.print("\n==================\n");
                         System.out.print("Enter for encrypt\n");
                         encryptMessage = SharedFunctions.UserInput();
                         SharedFunctions.WarningMessage("Message: " + Encrypt.EnryptMessage(encryptMessage));
                     }
                     else if (chooseMenu.equals("2")) {
                         String decryptMessage;
-                        System.out.print("\n===================\n");
-                        System.out.print("\nEnter for decrypt\n");
+                        System.out.print("\n==================\n");
+                        System.out.print("Enter for decrypt\n");
                         decryptMessage = SharedFunctions.UserInput();
                         SharedFunctions.WarningMessage("Message: " + Encrypt.DecryptMessage(decryptMessage));
                     }
