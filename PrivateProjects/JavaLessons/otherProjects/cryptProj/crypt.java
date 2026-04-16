@@ -10,7 +10,7 @@ class SharedFunctions{
     private static Scanner globalScanner = new Scanner(System.in);
 
     public static void startProgram(){
-        Encrypt.startEncrypt();
+        Encryption.startEncrypt();
         SharedFunctions.endProgram();
     }
 
@@ -25,7 +25,8 @@ class SharedFunctions{
     }
 
     public static void consolePause(){
-        System.out.print("\n\nPress Enter to be continue...\n");
+        SharedFunctions.clearConsole();
+        SharedFunctions.warningMessage("Press Enter to be continue...");
         SharedFunctions.globalScanner.nextLine();
     }
 
@@ -33,7 +34,7 @@ class SharedFunctions{
         SharedFunctions.clearConsole();
         System.out.print("-------------------\n");
         System.out.print(message + "\n");
-        System.out.print("-------------------");
+        System.out.print("-------------------\n");
     }
 
     public static void clearConsole() {
@@ -45,9 +46,7 @@ class SharedFunctions{
     }
 }
 
-class Encrypt{
-    private static String pass = "1488";
-
+class Encryption{
     public static void startEncrypt(){
         String authorization;
         SharedFunctions.clearConsole();
@@ -81,7 +80,7 @@ class Encrypt{
                         System.out.print("==================\n");
                         System.out.print("Enter for encrypt\n");
                         encryptMessage = SharedFunctions.userInput();
-                        SharedFunctions.warningMessage("Message: " + Encrypt.enryptMessage(encryptMessage));
+                        SharedFunctions.warningMessage("Message: " + Encryption.enryptionMessage(encryptMessage));
                     }
                     else if (chooseMenu.equals("2")) {
                         String decryptMessage;
@@ -89,7 +88,7 @@ class Encrypt{
                         System.out.print("==================\n");
                         System.out.print("Enter for decrypt\n");
                         decryptMessage = SharedFunctions.userInput();
-                        SharedFunctions.warningMessage("Message: " + Encrypt.decryptMessage(decryptMessage));
+                        SharedFunctions.warningMessage("Message: " + Encryption.decryptionMessage(decryptMessage));
                     }
                     else {
                         SharedFunctions.warningMessage("Error, try again");
@@ -102,11 +101,13 @@ class Encrypt{
         }
     }
 
-    private static String enryptMessage(String input){
+    private static String pass = "1488";
+
+    private static String enryptionMessage(String input){
         return input + "EncryptMessage";
     }
 
-    private static String decryptMessage(String input){
+    private static String decryptionMessage(String input){
         return input + "DecryptMessage";
     }
 }
