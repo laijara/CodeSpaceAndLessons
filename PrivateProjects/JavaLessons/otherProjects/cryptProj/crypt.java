@@ -54,7 +54,7 @@ class Encryption{
             System.out.print("Cryptor authorization\n");
             System.out.print("======================\n");
             System.out.print("0. Exit\n");
-            System.out.print("Enter password\n");
+            System.out.print("Enter password:\n");
             authorization = SharedFunctions.userInput();
             if(authorization.equals("0")){
                 SharedFunctions.clearConsole();
@@ -68,7 +68,7 @@ class Encryption{
                     System.out.print("=============\n");
                     System.out.print("0. Exit\n");
                     System.out.print("1. Encrypt message\n");
-                    System.out.print("2. Crypt message\n");
+                    System.out.print("2. Decrypt message\n");
                     chooseMenu = SharedFunctions.userInput();
                     if(chooseMenu.equals("0")){
                         SharedFunctions.clearConsole();
@@ -77,16 +77,16 @@ class Encryption{
                     else if (chooseMenu.equals("1")) {
                         String encryptMessage;
                         SharedFunctions.clearConsole();
-                        System.out.print("==================\n");
-                        System.out.print("Enter for encrypt\n");
+                        System.out.print("===================\n");
+                        System.out.print("Enter for encrypt:\n");
                         encryptMessage = SharedFunctions.userInput();
                         SharedFunctions.warningMessage("Message: " + Encryption.enryptionMessage(encryptMessage));
                     }
                     else if (chooseMenu.equals("2")) {
                         String decryptMessage;
                         SharedFunctions.clearConsole();
-                        System.out.print("==================\n");
-                        System.out.print("Enter for decrypt\n");
+                        System.out.print("===================\n");
+                        System.out.print("Enter for decrypt:\n");
                         decryptMessage = SharedFunctions.userInput();
                         SharedFunctions.warningMessage("Message: " + Encryption.decryptionMessage(decryptMessage));
                     }
