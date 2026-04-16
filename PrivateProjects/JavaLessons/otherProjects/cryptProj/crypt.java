@@ -2,97 +2,111 @@ import java.util.Scanner;
 
 class crypt {
     public static void main(String[] args) {
-        SharedFunctions.StartProgram();
+        SharedFunctions.startProgram();
     }
 }
 
 class SharedFunctions{
     private static Scanner globalScanner = new Scanner(System.in);
 
-    public static void StartProgram(){
-        Encrypt.StartEncrypt();
-        SharedFunctions.EndProgram();
+    public static void startProgram(){
+        Encrypt.startEncrypt();
+        SharedFunctions.endProgram();
     }
 
-    private static void EndProgram(){
-        SharedFunctions.ConsolePause();
+    private static void endProgram(){
+        SharedFunctions.consolePause();
         SharedFunctions.globalScanner.close();
     }
 
-    public static String UserInput(){
+    public static String userInput(){
         System.out.print("Input - ");
         return SharedFunctions.globalScanner.nextLine();
     }
 
-    public static void ConsolePause(){
+    public static void consolePause(){
         System.out.print("\n\nPress Enter to be continue...\n");
         SharedFunctions.globalScanner.nextLine();
     }
 
-    public static void WarningMessage(String message){
-        System.out.print("\n\n-------------------\n");
+    public static void warningMessage(String message){
+        SharedFunctions.clearConsole();
+        System.out.print("-------------------\n");
         System.out.print(message + "\n");
         System.out.print("-------------------");
+    }
+
+    public static void clearConsole() {
+        try {
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        } catch (Exception e) {
+            SharedFunctions.warningMessage("Error, try again");
+        }
     }
 }
 
 class Encrypt{
     private static String pass = "1488";
 
-    public static void StartEncrypt(){
+    public static void startEncrypt(){
         String authorization;
+        SharedFunctions.clearConsole();
         while (true) {
-            System.out.print("\n\nCryptor authorization\n");
+            System.out.print("Cryptor authorization\n");
             System.out.print("======================\n");
             System.out.print("0. Exit\n");
             System.out.print("Enter password\n");
-            authorization = SharedFunctions.UserInput();
+            authorization = SharedFunctions.userInput();
             if(authorization.equals("0")){
+                SharedFunctions.clearConsole();
                 break;
             }
             else if (authorization.equals(pass)) {
                 String chooseMenu;
-                SharedFunctions.WarningMessage("Access is allowed");
+                SharedFunctions.warningMessage("Access is allowed");
                 while (true) {
                     System.out.print("\n\nCryptor menu\n");
                     System.out.print("=============\n");
                     System.out.print("0. Exit\n");
                     System.out.print("1. Encrypt message\n");
                     System.out.print("2. Crypt message\n");
-                    chooseMenu = SharedFunctions.UserInput();
+                    chooseMenu = SharedFunctions.userInput();
                     if(chooseMenu.equals("0")){
+                        SharedFunctions.clearConsole();
                         break;
                     }
                     else if (chooseMenu.equals("1")) {
                         String encryptMessage;
-                        System.out.print("\n==================\n");
+                        SharedFunctions.clearConsole();
+                        System.out.print("==================\n");
                         System.out.print("Enter for encrypt\n");
-                        encryptMessage = SharedFunctions.UserInput();
-                        SharedFunctions.WarningMessage("Message: " + Encrypt.EnryptMessage(encryptMessage));
+                        encryptMessage = SharedFunctions.userInput();
+                        SharedFunctions.warningMessage("Message: " + Encrypt.enryptMessage(encryptMessage));
                     }
                     else if (chooseMenu.equals("2")) {
                         String decryptMessage;
-                        System.out.print("\n==================\n");
+                        SharedFunctions.clearConsole();
+                        System.out.print("==================\n");
                         System.out.print("Enter for decrypt\n");
-                        decryptMessage = SharedFunctions.UserInput();
-                        SharedFunctions.WarningMessage("Message: " + Encrypt.DecryptMessage(decryptMessage));
+                        decryptMessage = SharedFunctions.userInput();
+                        SharedFunctions.warningMessage("Message: " + Encrypt.decryptMessage(decryptMessage));
                     }
                     else {
-                        SharedFunctions.WarningMessage("Error, try again");
+                        SharedFunctions.warningMessage("Error, try again");
                     }
                 }
             }
             else {
-                SharedFunctions.WarningMessage("Error, try again");
+                SharedFunctions.warningMessage("Error, try again");
             }
         }
     }
 
-    private static String EnryptMessage(String input){
+    private static String enryptMessage(String input){
         return input + "EncryptMessage";
     }
 
-    private static String DecryptMessage(String input){
+    private static String decryptMessage(String input){
         return input + "DecryptMessage";
     }
 }
