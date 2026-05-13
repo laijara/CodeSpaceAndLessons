@@ -13,9 +13,9 @@ sudo apt install --no-install-recommends xorg lxqt-core openbox sddm -y
 echo "=== 3. Установка и настройка xrdp ==="
 sudo apt install xrdp -y
 
-# Разрешаем запуск X-сервера для всех пользователей (исправляет черный экран)
-sudo sed -i 's/allowed_users=console/allowed_users=anybody/g' /etc/X11/Xwrapper.config || \
-echo "allowed_users=anybody" | sudo tee -a /etc/X11/Xwrapper.config
+# Создаем папку для X11 и прописываем права (исправляет ошибку No such file or directory)
+sudo mkdir -p /etc/X11
+echo "allowed_users=anybody" | sudo tee /etc/X11/Xwrapper.config
 
 echo "=== 4. Настройка XRDP-сессии под LXQt ==="
 # Настройка глобального запуска LXQt для xrdp-сессий
@@ -31,16 +31,17 @@ test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 exec startlxqt
 EOF
 
-# Добавляем LXQt в конфиг текущего пользователя на всякий случай
-mkdir -p ~/.xsession
+# Удаляем возможную папку .xsession и создаем вместо нее правильный файл (исправляет ошибку Is a directory)
+rm -rf ~/.xsession
 echo "exec startlxqt" > ~/.xsession
 chmod +x ~/.xsession
 
 echo "=== 5. Перезапуск и включение служб ==="
 sudo systemctl enable sddm
 sudo systemctl enable xrdp
-sudo systemctl restart xrdp
+sudo systemctl restart sddm xrdp
 
 echo "=== Установка завершена! ==="
 echo "IP-адрес вашего Raspberry Pi для подключения через RDP:"
 hostname -I | awk '{print $1}'
+
