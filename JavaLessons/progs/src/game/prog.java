@@ -35,20 +35,20 @@ class prog{
                     break;
                 case 2:
                     System.out.println("\n\n====================");
-                    System.out.println("Вы покормили " + dog.getName() + "! Нажмите Enter для продолжения!");
-                    dog.feed();
+                    System.out.println(dog.feed());
+                    System.out.println("Нажмите Enter для продолжения!");
                     globalScanner.nextLine();
                     break;
                 case 3:
                     System.out.println("\n\n====================");
-                    System.out.println("Вы поиграли с " + dog.getName() + "! Нажмите Enter для продолжения!");
-                    dog.play();
+                    System.out.println(dog.play());
+                    System.out.println("Нажмите Enter для продолжения!");
                     globalScanner.nextLine();
                     break;
                 case 4:
                     System.out.println("\n\n====================");
-                    System.out.println("Вы уложили " + dog.getName() + " спать! Нажмите Enter для продолжения!");
-                    dog.sleep();
+                    System.out.println(dog.sleep());
+                    System.out.println("Нажмите Enter для продолжения!");
                     globalScanner.nextLine();
                     break;
                 default:
@@ -90,50 +90,53 @@ class Pet{
     }
 
     //Поведение
-    public void feed(){
+    public String feed(){
         if(this.energy <= 0){
-            System.out.println(this.name + " устал, дайте ему поспать!");
+            return this.name + " устал, дайте ему поспать!";
         }
         else if(this.energy - 1 < 0){
-            System.out.println("Вы не можете это сделать, иначе " + this.name + " сильно устанет!");
+            return "Вы не можете это сделать, иначе " + this.name + " сильно устанет!";
         }
         else if(this.hunger >= 10) {
-            System.out.println(this.name + " не может есть! Он наелся");
+            return this.name + " не может есть! Он наелся";
         }
         else {
             this.hunger += 3;
             this.energy -= 1;
+            return this.name + " вкусно поел!!! Ом-ном-ном!!!";
         }
     }
-    public void play(){
+    public String play(){
         if(this.energy <= 0 || this.hunger <= 0){
-            System.out.println(this.name + " устал, дайте ему поспать или поесть!");
+            return this.name + " устал, дайте ему поспать или поесть!";
         }
         else if(this.energy - 2 < 0 || this.hunger - 2 < 0){
-            System.out.println("Вы не можете это сделать, иначе " + this.name + " изголодает или сильно устанет!");
+            return "Вы не можете это сделать, иначе " + this.name + " изголодает или сильно устанет!";
         }
         else if (this.happiness >= 10) {
-            System.out.println(this.name + " не может играть! Он наигрался!");
+            return this.name + " не может играть! Он наигрался!";
         }
         else {
             this.hunger -= 2;
             this.energy -= 2;
             this.happiness += 3;
+            return this.name + " поигрался! Уииии!";
         }
     }
-    public void sleep(){
+    public String sleep(){
         if(this.hunger <= 0){
-            System.out.println(this.name + " голоден, дайте ему поесть!");
+            return this.name + " голоден, дайте ему поесть!";
         }
         else if(this.hunger - 1 < 0){
-            System.out.println("Вы не можете это сделать, иначе " + this.name + " изголодает!");
+            return "Вы не можете это сделать, иначе " + this.name + " изголодает!";
         }
         else if (this.energy >= 10) {
-            System.out.println(this.name + " не может играть! Он наигрался");
+            return this.name + " не может играть! Он наигрался";
         }
         else {
             this.hunger -= 1;
             this.energy += 5;
+            return this.name + " идёт баиньки!!! уаааах!";
         }
     }
 
