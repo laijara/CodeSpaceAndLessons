@@ -1,63 +1,82 @@
 package game;
-import java.util.Scanner;
 
-class prog{
-    private static final Scanner globalScanner = new Scanner(System.in);
+import javax.swing.*;
+import java.awt.*;
+
+class prog {
+    // Делаем эти переменные статическими полями класса,
+    // чтобы к ним был доступ из кнопок
+    private static Pet dog;
+    private static JLabel statusLabel;
+    private static JLabel messageLabel;
+
     public static void main(String[] args) {
-        prog.StartProgram();
-        System.out.println("\n\nНажмите Enter для продолжения!");
-        globalScanner.nextLine();
-        globalScanner.close();
+        // 1. Инициализация логики (наш "Повар")
+        dog = new Pet("Бобик", 5, 5, 5);
+
+        // 2. Создаем главное окно (наш новый "Официант")
+        JFrame frame = new JFrame("Тамагочи: " + dog.getName());
+        frame.setSize(400, 300); // Размеры окна (Ширина x Высота)
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Программа завершится при закрытии окна на крестик
+        frame.setLayout(new BorderLayout()); // Менеджер компоновки (располагает элементы по краям и центру)
+
+        // 3. Создаем текст со статусом и ставим его НАВЕРХ (NORTH)
+        statusLabel = new JLabel(getStatusText(), SwingConstants.CENTER);
+        statusLabel.setFont(new Font("Arial", Font.BOLD, 16)); // Делаем шрифт побольше
+        frame.add(statusLabel, BorderLayout.NORTH);
+
+        // 4. Создаем текст для сообщений ("Вы покормили...") и ставим в ЦЕНТР (CENTER)
+        messageLabel = new JLabel("Добро пожаловать в игру!", SwingConstants.CENTER);
+        frame.add(messageLabel, BorderLayout.CENTER);
+
+        // 5. Создаем панель для кнопок
+        JPanel buttonPanel = new JPanel();
+        JButton feedButton = new JButton("Покормить");
+        JButton playButton = new JButton("Поиграть");
+        JButton sleepButton = new JButton("Спать");
+
+        // Кладем кнопки на панель
+        buttonPanel.add(feedButton);
+        buttonPanel.add(playButton);
+        buttonPanel.add(sleepButton);
+
+        // Ставим панель с кнопками ВНИЗ окна (SOUTH)
+        frame.add(buttonPanel, BorderLayout.SOUTH);
+
+        // 6. ОЖИВЛЯЕМ КНОПКИ (Событийно-ориентированное программирование)
+        feedButton.addActionListener(e -> {
+            String result = dog.feed(); // Вызываем метод
+            updateScreen(result);       // Обновляем экран
+        });
+
+        playButton.addActionListener(e -> {
+            String result = dog.play();
+            updateScreen(result);
+        });
+
+        sleepButton.addActionListener(e -> {
+            String result = dog.sleep();
+            updateScreen(result);
+        });
+
+        // 7. Финальные настройки окна
+        frame.setLocationRelativeTo(null); // Окно появится ровно по центру экрана
+        frame.setVisible(true); // Включаем видимость окна (всегда делается в самом конце!)
     }
-    private static void StartProgram(){
-        System.out.print("Введите имя питомца - ");
-        Pet dog = new Pet(globalScanner.nextLine(), 5, 5, 5);
-        int input;
-        while (true){
-            System.out.println("\n\n\n\n\n===================================");
-            System.out.println("Выберите пункт:");
-            System.out.println("0 - Выход");
-            System.out.println("1 - Узнать статус питомца");
-            System.out.println("2 - Покормить");
-            System.out.println("3 - Поиграть");
-            System.out.println("4 - Уложить спать");
-            System.out.print("Вводите - ");
-            input = globalScanner.nextInt();
-            globalScanner.nextLine();
-            switch (input){
-                case 0:
-                    return;
-                case 1:
-                    System.out.println("\n\n====================");
-                    System.out.println("Статус питомца:");
-                    dog.CheckStatus();
-                    globalScanner.nextLine();
-                    break;
-                case 2:
-                    System.out.println("\n\n====================");
-                    System.out.println(dog.feed());
-                    System.out.println("Нажмите Enter для продолжения!");
-                    globalScanner.nextLine();
-                    break;
-                case 3:
-                    System.out.println("\n\n====================");
-                    System.out.println(dog.play());
-                    System.out.println("Нажмите Enter для продолжения!");
-                    globalScanner.nextLine();
-                    break;
-                case 4:
-                    System.out.println("\n\n====================");
-                    System.out.println(dog.sleep());
-                    System.out.println("Нажмите Enter для продолжения!");
-                    globalScanner.nextLine();
-                    break;
-                default:
-                    System.out.println("\n\n====================");
-                    System.out.println("Ошибка ввода! Нажмите Enter для продолжения!");
-                    globalScanner.nextLine();
-                    break;
-            }
-        }
+
+    // --- Вспомогательные методы ---
+
+    // Метод, который обновляет текст на экране после каждого нажатия кнопки
+    private static void updateScreen(String message) {
+        messageLabel.setText(message); // Выводим ответ от питомца
+        statusLabel.setText(getStatusText()); // Обновляем цифры характеристик
+    }
+
+    // Метод для склеивания статуса (Используем HTML-тег, чтобы текст не сливался)
+    private static String getStatusText() {
+        return "<html>Сытость: " + dog.getHunger() +
+                " | Энергия: " + dog.getEnergy() +
+                " | Счастье: " + dog.getHappiness() + "</html>";
     }
 }
 
